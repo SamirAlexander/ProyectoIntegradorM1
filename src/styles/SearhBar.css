@@ -1,0 +1,29 @@
+input {
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 1%;
+}
+
+.boton-agregar {
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px 1px;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 5%;
+}
+
+.boton-agregar:hover {
+  background-color: goldenrod;
+  color: aliceblue;
+  transform: scale(1.1);
+}
+
+.boton-agregar:active {
+  background-color: green;
+}

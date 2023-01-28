@@ -1,0 +1,36 @@
+@media screen and (max-width: 412px) {
+  .cards {
+    background-image: url("../img/Interestelar2.jpg");
+    border-radius: 30px;
+    padding-bottom: 20px 5px 20px 5px;
+  }
+}
+@media screen and (min-width: 413px) {
+  .cards {
+    background-image: url("../img/Interestelar2.jpg");
+    border-radius: 30px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .cards {
+    background-image: url("../img/Interestelar2.jpg");
+    border-radius: 30px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .cards {
+    background-image: url("../img/Interestelar2.jpg");
+    border-radius: 30px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

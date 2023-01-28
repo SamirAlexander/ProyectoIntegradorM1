@@ -1,0 +1,19 @@
+.detail-view {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img-detail {
+  margin: 0 auto;
+  border-radius: 20px;
+  padding-top: 5%;
+  width: 50%;
+}
+
+h1 {
+}
+
+h3 {
+  text-align: left;
+  margin-left: 10%;
+}

@@ -1,0 +1,28 @@
+.nav {
+  background-color: rgba(22, 135, 140, 0.7);
+  padding: 30px 0 30px 0;
+  text-align: right;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.link {
+  display: inline;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 3%;
+  margin-right: 5%;
+  animation: 1s all;
+}
+
+.link:hover {
+  color: goldenrod;
+  background-color: goldenrod;
+  color: aliceblue;
+  box-shadow: 5px 5px 5px 1px;
+  border-radius: 10px;
+}
