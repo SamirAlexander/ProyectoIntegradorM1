@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function Card(props) {
   return (
     <div className="card">
+      <button className="boton">Fav</button>
       <button className="boton" onClick={() => props.onClose(props.id)}>
         X
       </button>

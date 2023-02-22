@@ -3,10 +3,10 @@ import SearchBar from "./SearchBar";
 import "../styles/Nav.css";
 import { Link } from "react-router-dom";
 
-function Nav({ onSearch }) {
+function Nav() {
   return (
     <div className="nav">
-      <SearchBar onSearch={onSearch} />
+      <SearchBar />
       <Link className="link" to="/home">
         Cards
       </Link>
@@ -15,6 +15,9 @@ function Nav({ onSearch }) {
       </Link>
       <Link className="link" to="/detail/:detailId">
         Detail
+      </Link>
+      <Link className="link" to={"/favorites"}>
+        Favorites
       </Link>
     </div>
   );
